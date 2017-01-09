@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    tools:context="com.metalarm.LoginPageActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="20dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo"/>
+
+        <EditText
+            android:id="@+id/edEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/blue_border"
+            android:drawablePadding="16dp"
+            android:drawableLeft="@drawable/mail"
+            android:hint="Email"
+            android:padding="10dp" />
+
+        <EditText
+            android:inputType="textPassword"
+            android:drawablePadding="16dp"
+            android:drawableLeft="@drawable/pswd"
+            android:id="@+id/edPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8dp"
+            android:background="@drawable/blue_border"
+            android:hint="Password"
+            android:padding="10dp" />
+
+        <Button
+            android:textColor="#ffffff"
+            android:id="@+id/btnLogin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circle_button"
+            android:text="Login" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/btnSignUp"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="New User ?" />
+        <TextView
+            android:textSize="18dp"
+            android:textColor="@color/ColorPrimary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:text="Signup" />
+
+    </LinearLayout>
+
+</LinearLayout>

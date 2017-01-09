@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:weightSum="10">
+
+
+    <ImageView
+        android:id="@+id/ivCustImage"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:scaleType="fitXY" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="6dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tvCustName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Better Burger"
+            android:textColor="#0e5eac"
+            android:textSize="17dp" />
+
+        <TextView
+            android:textSize="12dp"
+            android:id="@+id/tvCustDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="Better Burger" />
+
+        <Button
+            android:id="@+id/btnCustbtn"
+            android:layout_width="120dp"
+            android:layout_height="25dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/round_button_gray"
+            android:text="Sponsored"
+            android:textAllCaps="false"
+            android:textColor="#ffffff"
+            android:visibility="gone"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

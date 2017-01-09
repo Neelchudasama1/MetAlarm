@@ -1,0 +1,37 @@
+MetraApp 2016
+
+Alias name : MetraApp
+Alias pass : MetraApp@2016
+
+Singning Details :
+
+Alias name: MetraApp
+Creation date: 6 Sep, 2016
+Entry type: PrivateKeyEntry
+Certificate chain length: 1
+Certificate[1]:
+Owner: O=MetraApp
+Issuer: O=MetraApp
+Serial number: 12b5248a
+Valid from: Tue Sep 06 18:41:48 IST 2016 until: Sat Aug 31 18:41:48 IST 2041
+Certificate fingerprints:
+	 MD5:  A9:1F:C6:FE:2D:CC:4E:BB:8C:A4:28:0B:92:1A:FE:6C
+	 SHA1: 32:C7:6F:4A:A5:A6:FF:4A:6D:D9:6E:E8:DE:D0:C4:D2:C5:DD:A2:E9
+	 SHA256: 2D:CE:66:92:23:D1:72:F4:B6:0A:55:94:DD:41:E7:9F:CB:08:BB:73:FF:11:58:74:CA:DF:B6:92:52:5F:B1:40
+	 Signature algorithm name: SHA256withRSA
+	 Version: 3
+
+Extensions: 
+
+#1: ObjectId: 2.5.29.14 Criticality=false
+SubjectKeyIdentifier [
+KeyIdentifier [
+0000: CE F1 1F F9 05 51 CB 76   F8 16 F1 53 B5 44 9E FE  .....Q.v...S.D..
+0010: F6 D9 A5 68                                        ...h
+]
+]
+
+
+Google map configuration done using following mail,
+
+app@latitudetechnolabs.com
